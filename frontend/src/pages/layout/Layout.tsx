@@ -58,12 +58,12 @@ const Layout = () => {
     const handleResize = () => {
       if (window.innerWidth < 480) {
         setShareLabel(undefined)
-        setHideHistoryLabel('Hide history')
-        setShowHistoryLabel('Show history')
+        setHideHistoryLabel('Sakrij istoriju')
+        setShowHistoryLabel('Pokaži istoriju')
       } else {
         setShareLabel('Share')
-        setHideHistoryLabel('Hide chat history')
-        setShowHistoryLabel('Show chat history')
+        setHideHistoryLabel('Sakrij istoriju')
+        setShowHistoryLabel('Pokaži istoriju')
       }
     }
 
